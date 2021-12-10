@@ -4539,137 +4539,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7126152088630294660, guid: 596c8d7bbb29abb4ca7f406d02668b93, type: 3}
   m_PrefabInstance: {fileID: 1860718910}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &617551318 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6799938960955883593, guid: 8a465df73384a8f42a8e10bf4af88398, type: 3}
+--- !u!114 &617551320 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 617551320, guid: 8a465df73384a8f42a8e10bf4af88398, type: 3}
   m_PrefabInstance: {fileID: 6799938961306926169}
   m_PrefabAsset: {fileID: 0}
---- !u!82 &617551319
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 617551318}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 7331474457576782767, guid: 6c17b7d2504ffcf46a3f39ea70e2d350, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 4c30e7cc31ae6b949852a19afa17ee23, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!114 &617551320
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 617551318}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Events:
-    m_Signals:
-    - {fileID: 11400000, guid: f5d09f21b15ad7c47895d5f731bd72e3, type: 2}
-    m_Events:
-    - m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 6799938961306926170}
-          m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
-          m_MethodName: LevelEndTrigger
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1001 &731208285
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5713,20 +5593,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 6799938960955883596, guid: 8a465df73384a8f42a8e10bf4af88398, type: 3}
-      propertyPath: jumpForce
-      value: 850
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a465df73384a8f42a8e10bf4af88398, type: 3}
---- !u!114 &6799938961306926170 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6799938960955883596, guid: 8a465df73384a8f42a8e10bf4af88398, type: 3}
-  m_PrefabInstance: {fileID: 6799938961306926169}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 617551318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08536258239f4ed41aacc124fccaec16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

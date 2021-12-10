@@ -87,6 +87,7 @@ public class PlayerController : MonoBehaviour
     {
         if (other.CompareTag("Platform"))
         {
+
             transform.parent = other.transform;
         }
     }

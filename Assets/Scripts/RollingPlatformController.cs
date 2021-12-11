@@ -21,7 +21,7 @@ public class RollingPlatformController : MonoBehaviour
             //player.AddComponent<FixedJoint2D>();
             //FixedJoint2D fixedJoint2D = player.GetComponent<FixedJoint2D>();
             //fixedJoint2D.connectedBody = GetComponent<Rigidbody2D>();
-            
+               
             frontWheel.GetComponent<WheelJoint2D>().useMotor = true;
             backWheel.GetComponent<WheelJoint2D>().useMotor = true;
             //StartCoroutine(AccelerateRollingPlatform());
